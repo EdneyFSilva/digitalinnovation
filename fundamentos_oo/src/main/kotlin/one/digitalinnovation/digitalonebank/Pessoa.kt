@@ -6,6 +6,7 @@ class Pessoa {
 
     inner class endereco{
         var rua:String = "Rua 8"
+        var num:Int = 33
     }
 }
 
