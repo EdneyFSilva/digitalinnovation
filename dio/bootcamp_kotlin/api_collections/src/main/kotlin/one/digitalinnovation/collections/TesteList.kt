@@ -18,16 +18,3 @@ fun main() {
     println("-- Imprimindo funcionário da lista agrupados por tipo de contrato, usando encadeamdnto de funções Kotlin ---")
     funcionarios.groupBy { it.tipo }.forEach { println(it) }
 }
-
-data class Funcionaio (
-    val nome: String,
-    val salario: Double,
-    val tipo: String
-
-) {
-    override fun toString(): String =
-        """
-        Nome: $nome
-        Salario: $salario
-        """.trimIndent()
-}
